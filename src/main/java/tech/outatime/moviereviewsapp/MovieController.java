@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/movies") // Controller to endpoint
+@RequestMapping("/api/v1/movies") // Controller to the endpoint
 public class MovieController {
     @Autowired
     private MovieService movieService;

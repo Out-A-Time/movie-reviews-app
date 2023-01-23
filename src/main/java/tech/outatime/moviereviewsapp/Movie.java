@@ -9,7 +9,7 @@ import java.util.List;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
-@Document(collection = "movies") // MongoDB Collection name
+@Document(collection = "Movies") // MongoDB Collection name
 @Data //from Lombok - take care of all getters and setters and methods
 @AllArgsConstructor // Creating a  constructor that takes all this private fields as arguments
 @NoArgsConstructor // Constructor that takes no parameters

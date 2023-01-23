@@ -14,9 +14,7 @@ public class MovieReviewsAppApplication {
 	}
 
 	@GetMapping("/")
-	public String apiRoot(){
+	public String apiRoot() {
 		return "Hello from JAVA SpringBoot!";
 	}
-
-
 }

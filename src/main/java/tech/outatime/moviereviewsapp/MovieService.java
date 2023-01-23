@@ -7,7 +7,7 @@ import java.util.List;
 
 @Service
 public class MovieService {
-    @Autowired //It will Spring know that we want to instantiate this class here
+    @Autowired //It will let Spring know that we want to instantiate this class here
     private MovieRepository movieRepository;
     public List<Movie> allMovies(){
         System.out.println((movieRepository.findAll().toString()));
