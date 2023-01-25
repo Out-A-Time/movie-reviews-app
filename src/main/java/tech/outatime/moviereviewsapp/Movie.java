@@ -23,6 +23,6 @@ public class Movie {
     private String poster;
     private List<String > genres;
     private List<String > backdrops;
-    @DocumentReference //This will cause to DB to store only the IDs of the review and reviews itself will be in separate collection. This is called 'manual reference relationship'
+    @DocumentReference // This will cause to DB to store only the IDs of the review and reviews itself will be in separate collection. This is called 'manual reference relationship'
     private List<Review> reviewIds; // Embedded relationship. Ok if modeling relationship 'one to many'. One movie can have many reviews
 }
